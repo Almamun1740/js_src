@@ -1,3 +1,4 @@
+/*https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js*/
 /*or let prom = new Promise*/
       /* function prom(complete) {
          return new Promise(function (resolve, reject) {
