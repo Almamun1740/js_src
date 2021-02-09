@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      // start 3rd methods
+      let n = "student";
+
+      var obj = {
+        [n + "name"]: "Mamun",
+        course: "LEDP",
+        // space nila akta ba 2ta cot er modha nita hoba na hola kaj korba na
+        "detail show"() {
+          return `${this.studentname} is student of ${this.course}`;
+        },
+      };
+      console.log(obj);
+      //   new method function na leka print korer jono
+      console.log(obj["detail show"]());
+      //   end 3rd method
+
+      //   2nd method
+      //   let n = "student";
+
+      //   var obj = {
+      //     [n + "name"]: "Mamun",
+      //     course: "LEDP",
+      //     detail: function () {
+      //       return `${this.studentname} is student of ${this.course}`;
+      //     },
+      //   };
+      //   console.log(obj);
+      //   console.log(obj.detail());
+      //   end second method
+    </script>
+  </head>
+  <body></body>
+</html>
